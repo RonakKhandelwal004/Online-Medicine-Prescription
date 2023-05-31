@@ -1,0 +1,245 @@
+.navbar{
+    padding: 5px ;
+    padding-top: 12px;   
+    margin-right:3px;
+    background: black;
+    color:white;
+    font-weight: bold;
+    font-size:30px;
+    position: sticky;
+    top:0px;
+}
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    overflow:hidden;
+    display: flex;
+  }
+  .navbar  li{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    white-space:nowrap;
+    position:relative;
+    margin:10px;
+    margin-right: 50px;
+  }
+  .navbar li a{
+    color:#fff;
+    text-decoration: none;
+  
+  }
+       a:hover, .active{
+      background-color:rgb(47, 152, 232);
+      color:white;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      text-decoration:underline;
+      }
+  .hed{
+    text-align: center;
+    font-weight: bolder;
+    font-family:serif;
+    font-size:40px ;
+    margin-right: 40%;
+color: rgb(130, 38, 61);
+}
+  .float{ 
+    float:left;
+    margin-right:800px;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    background-color: #cef4f4;
+  }
+.cont{
+    padding-top: 40px;
+    width:80%;
+    margin: 50px auto;
+   height:100% ;
+   margin-bottom:0px;
+}
+.cont-box{
+    background: #fff;
+    display: flex;
+}
+.cont-left{
+   flex-basis:60% ;
+   margin:40px 60px;
+}
+.cont-right{
+    flex-basis:40% ;
+    padding-left: 66px;
+    margin:0px ;
+    background-color: #1c00b5;
+    color:#fff;
+ }
+ h1{
+    margin-bottom: 10px;
+ }
+ .cont p{
+    margin-bottom: 40px;
+ }
+ .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+ }
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width:100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+    padding-bottom: 5px;
+}
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline:none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display:block;
+    color:#1c00b5;
+}
+button{
+    background-color: #3a21c8;
+    width: 10%;
+    border:none;
+    outline: none;
+    color:#fff;
+    height: 35px;
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow: 15px rgb(2, 77, 156);
+}
+.cont-left h3{
+    color:#1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.cont-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    font-size: large;
+    padding-top: 30px;
+}
+footer{
+    background-color: #75f4e1 ;
+}
+  .ull{
+    list-style:none;
+     font-size:18px;
+     font-weight: bold;
+     margin-left:600px;
+     margin-top:50px;
+     padding-bottom: 20px;
+  }
+  #bl{
+
+    float: left;
+    width: 50%;
+  }
+  .imff img{
+   
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 112px;
+    margin-left: 300px;
+  }
+  .imff p{
+    float:left;
+    font-size: 33px;
+    margin:10px;
+    margin-left: 0px;
+    margin-right: 200px;
+    margin-top: 130px;
+
+  }
+  .imff{
+    display: inline-block;
+    
+  }
+.promoSearch {
+    background: #cef4f4;
+    border-radius: 0 0 10px 0;
+}
+.promoSearch{
+  padding: 20px 400px;
+  text-align: center;
+  border-radius: 0px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+.sc-searchbox-input{
+  border-radius: 20px;
+  margin-top:0px ;
+  margin-bottom:0px ;
+  height: 88px;
+background-color: #e0f667;
+padding-left: 10px;
+font-size: 30px;
+}
+.contact,h1{
+font-size: 50px;
+}
+.contact,p{
+  font-size: 20px;
+
+}
+img,#pppp{
+  width: 10px;
+  height: 10px;
+}
+.bab {
+  width: 1000px;
+  height:300px;
+  display: flex;
+  border:0px;
+  padding: 20px 400px ;
+ padding-bottom: 90px;
+}
+.leftbab {
+  width: 250px;
+  height: 200px;
+  border-radius: 100px;
+  /* background-color:white ; */
+  padding: 20px 20px;
+  margin-right: 20px;
+  margin: 50px;
+  background: transparent;
+  
+}
+.midbab{
+  width: 250px;
+  height: 200px;
+  /* background-color:white ; */
+  padding: 20px 20px;
+  margin-right: 20px;
+  margin: 50px;
+border-radius: 100px;
+}
+.rightbab {
+  width: 250px;
+  height: 200px;
+  /* background-color:white ; */
+  padding: 20px 20px;
+  margin-right: 0px;
+  margin: 50px;
+  border-radius: 100px;
+
+}
